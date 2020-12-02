@@ -5,20 +5,21 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.6.3
 
-* System dependencies
+* Key requirement: company needs documentation that salaried employees did or did not get overtime each week.
 
-* Configuration
+* Models:
+- Post -> date:date rationale:text
+- User -> Devise
+- AdminUser -> STI
 
-* Database creation
+* Features:
+- Approval Workflow
+- SMS sending -> link to approval or overtime input
+- Administrate admin dashboard
+- Email summary to managers for approval
+- Needs to be documented if employee did not log overtime
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* UI:
+Boostrap -> formatting
